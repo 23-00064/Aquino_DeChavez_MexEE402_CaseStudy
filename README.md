@@ -10,8 +10,8 @@ Batangas State University, Alangilan Campus
 
 | Name | Student Number | Section |
 |---|---|---|
-| Aquino, First Name | | |
-| De Chavez, Zoe |23-00064|MEXE - 4101 |
+| Surname, First Name | | |
+| De Chavez, Zoe |23-00064 |MEXE-4101 |
 
 ## Notebook links
 
