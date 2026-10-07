@@ -10,7 +10,7 @@ Batangas State University, Alangilan Campus
 
 | Name | Student Number | Section |
 |---|---|---|
-| Surname, First Name | | |
+| Aquino, Kimberly Chezka R. |23-00272 |MEXE-4101 |
 | De Chavez, Zoe |23-00064 |MEXE-4101 |
 
 ## Notebook links
