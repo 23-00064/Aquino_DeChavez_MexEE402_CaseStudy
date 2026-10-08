@@ -89,7 +89,7 @@ From Chapter 9, I have learned that data preprocessing is vital as it makes the 
 ## Errors we found
 
 ### Aquino
-
+---
 ### De Chavez
 **📋 Overview**
 > No syntax problems were detected in Chapter 9, but several problems were noted regarding data visualization.
@@ -122,6 +122,7 @@ The Age column was not included into the correlation heatmap in Cell 39 due to t
 
 ---
 ## Note on AI tools
+
 ### Aquino
 ---
 ### De Chavez
