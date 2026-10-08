@@ -29,6 +29,57 @@ Batangas State University, Alangilan Campus
 ## What we learned
 
 ### Aquino 
+**📖 Chapter 1: Introduction**
+
+Before this chapter I thought you just give data to the computer and it learns. Now I know raw data is messy, like a kitchen that needs cleaning before you can cook. The data can have missing values, mixed-up units like mph and kph, or columns that don't help at all. I learned three ways to fix this: fill the gaps (like using the average), convert units so everything matches, and remove columns that aren't useful. The part that surprised me most was the reason it matters. It isn't only about neatness. Clean data gives a more accurate model and also saves time and money later. In my own code, I saw that even the order of the cleaning steps matters, because filling Publisher first left nothing for the next step to remove.
+
+---
+
+**💻 Chapter 2: Learning Experience**
+
+Before this, I thought you just give data to the computer and it learns. Now I know you have to look at the data first. head() shows a few rows, info() shows the column types and what's missing, and describe() gives the numbers like the average and the biggest value. 
+
+---
+**💻 Chapter 3: Learning Experience**
+
+I learned that missing values can be filled in or the rows can be dropped. What surprised me was that my order of steps mattered. I filled the empty Publisher cells first, so the next step that removes empty Publisher rows had nothing left to remove. I also didn't expect that filling Year with the average gives something like 2006.4, which isn't a real year. I was also surprised that the Rank column was dropped, because it looks like data but is really just a number for the row's position. 
+
+---
+
+**💻 Chapter 4: Feature Engineering and Encoding**
+
+I learned that I can make new columns from the ones I already have. For example, dividing lemonade sold by temperature gave a new column, and the numbers kept going up as it got hotter. I also learned about binning, which means putting numbers into groups like cool, warm, hot, and very hot. What surprised me was that no row ended up in "very hot", so that label was empty. The biggest surprise was encoding. Computers need numbers instead of words, but if I turn Sunny, Cloudy, and Rainy into 0, 1, and 2, the computer thinks Rainy is "bigger" than Sunny. That's why weather uses one-hot encoding, while Little, Medium, and Lots can use ordinal encoding because they really do have an order. 
+
+---
+
+**📊 Chapter 5: Scaling and Normalization**
+
+I learned that the computer doesn't know what units are. Study hours (8 to 15) and grades (76 to 92) are just numbers to it, so the bigger numbers can end up controlling the result. Scaling fixes this by putting the columns on the same size. StandardScaler makes the average 0, and MinMaxScaler makes everything go from 0 to 1. What surprised me was that scaling isn't always needed. 
+
+---
+
+**📊 Chapter 6: Outlier Detection**
+
+I learned that an outlier is a value that is very different from the others, like the 100 in my list of small numbers. I was surprised that the Z-score method almost missed it, because its score was only about 2.5 and the cutoff is 3. The 100 made the spread so big that it hid itself. The IQR method found it right away, so now I know one method can fail where another works. I also learned that finding an outlier isn't the end. I still have to decide whether to remove it or limit it.
+
+---
+
+**📊 Chapter 7: Feature selection**
+
+I learned that more columns isn't always better, and that I can pick only the useful ones. There are three ways: the filter method (check each column's correlation with the grade), RFECV (remove the weakest column step by step), and LassoCV (push the unimportant columns to zero). What surprised me was that the filter method couldn't tell that "study hours" and "assignments completed" are exactly the same column, so it kept both. It also showed final grade in the list, because the answer is perfectly related to itself. So I learned I need to read the results and not just trust them. I also got a NameError because I forgot to import SVR and RFECV.
+
+---
+
+**📊 Chapter 8:  Constructing a Preprocessing Pipeline**
+
+The data goes in, passes through the steps (fill missing values, then scale), and comes out clean, always in the same order. This is useful because my code is shorter and neater and I don't forget a step. What surprised me was ColumnTransformer. It only worked on Age and Fare and quietly left out all the other columns. I also made a small mistake by typing x instead of X, and the whole cell broke. In coding, even one letter matters.
+
+---
+
+**📊 Chapter 9: Full pipeline and Visualization**
+
+This chapter put everything together. Number columns got the median and scaling, and word columns got a "missing" label and one-hot encoding. I also turned ages into Child, Adult, and Elderly, then made charts to see who survived. What I learned is that charts are not just for decoration. They help me check my work. What surprised me was that my own mistakes showed up here. One "after" chart used column 2, which turned out to be a one-hot column and not Age. Also, once I turned Age into groups, the later charts that needed real ages stopped working properly. I learned to keep a copy of the original column and to run the cells in the right order.
+
 ---
 ### De Chavez, Zoe 
 ### Data Preprocessing
