@@ -85,16 +85,77 @@ In chapter 8, I learnt that data preparation does not only involve cleaning but 
 
 From Chapter 9, I have learned that data preprocessing is vital as it makes the data organized, coherent and easy to work with. Handling the missing values, categorizing data and producing visualizations may help us discover the patterns present in a data set. What surprised me in Chapter 9 was the fact that the Titanic data set may reveal some relationships among such factors as age, gender, passenger class and whether or not a person survived.
 
+---
 ## Errors we found
 
-List any mistake you found in the original notebooks, and the correct version.
-There are real ones in there. Finding them earns points.
+### Aquino
 
+### De Chavez
+**📋 Overview**
+> No syntax problems were detected in Chapter 9, but several problems were noted regarding data visualization.
+
+**🔍 Identified Issues**
+
+**`01` — Histogram Visualization**
+**Affected Cells:** `29–30`
+
+Specifically, the histogram in Cells 29–30 is based on a wrong column from the preprocessed dataset that may influence the results' accuracy.
+
+**`02` — Histogram with KDE**
+**Affected Cell:** `34`
+
+The histogram with KDE in Cell 34 is built on the Age column that is represented in categories. Actually, the count plot should have been used there because it is suitable for the representation of categories and survival outcomes.
+
+**`03` — Correlation Heatmap**
+**Affected Cell:** `39`
+
+The Age column was not included into the correlation heatmap in Cell 39 due to the fact that it was turned into categories. This problem can be overcome if the numeric version of the Age column was used instead.
+
+
+### 📊 Issue Summary
+
+| Cell Reference | Visualization | Identified Issue |
+|:---:|---|---|
+| `29–30` | Histogram | Wrong column selected |
+| `34` | Histogram with KDE | Categorical Age data |
+| `39` | Correlation Heatmap | Age column excluded |
+
+---
 ## Note on AI tools
+### Aquino
+---
+### De Chavez
 
-Say whether you used an AI tool, and what for. This is not a penalty.
-Hiding it is.
+**📋 Overview**
 
+> Gemini AI was used by me mainly to recognize the errors that arise during the code execution and make sense of the error.
+
+**🔍 AI Assistance & Error Identification**
+
+**`01` — File Upload Error**
+**Affected Chapter:** `02`
+
+For example, in Chapter 2, there was an error due to the uploading of a ZIP file instead of a CSV file which cannot be read by the program. The Gemini explained what kind of error it was and recommended changing the code in such a way to make it readable for ZIP files. Yet, I preferred downloading the appropriate CSV file instead of changing the initial code.
+
+
+**`02` — Undefined Variables & Functions**
+**Category:** `Code Execution Errors`
+
+Moreover, Gemini helped me recognize the errors arising due to undefined variables and functions which I had not executed prior to that. This allowed me to understand the reason for these errors and ways to fix them.
+
+## 📊 AI Usage Summary
+
+| Category | Gemini AI Usage |
+|:---|:---|
+| `01` File Upload | Error identification and explanation |
+| `02` Undefined Variables | Error identification and understanding |
+| `03` Undefined Functions | Error identification and understanding |
+
+**📝 Scope of AI Usage**
+
+Besides error identification and understanding, Gemini was not used for any other purpose.
+
+---
 ## References
 
 McKinney, W. (2021). Python for Data Analysis, 3rd ed. O'Reilly.
