@@ -31,7 +31,7 @@ Batangas State University, Alangilan Campus
 ### Aquino 
 **📖 Chapter 1: Introduction**
 
-Before this chapter I thought you just give data to the computer and it learns. Now I know raw data is messy, like a kitchen that needs cleaning before you can cook. The data can have missing values, mixed-up units like mph and kph, or columns that don't help at all. I learned three ways to fix this: fill the gaps (like using the average), convert units so everything matches, and remove columns that aren't useful. The part that surprised me most was the reason it matters. It isn't only about neatness. Clean data gives a more accurate model and also saves time and money later. In my own code, I saw that even the order of the cleaning steps matters, because filling Publisher first left nothing for the next step to remove.
+The data can have missing values, mixed-up units like mph and kph, or columns that don't help at all. I learned three ways to fix this: fill the gaps (like using the average), convert units so everything matches, and remove columns that aren't useful. It isn't only about neatness. Clean data gives a more accurate model and also saves time and money later. In the code, I saw that even the order of the cleaning steps matters, because filling Publisher first left nothing for the next step to remove.
 
 ---
 
