@@ -145,38 +145,6 @@ From Chapter 9, I have learned that data preprocessing is vital as it makes the 
 
 **🔍 Identified Issues**
 
-**`01` — Histogram Visualization**
-**Affected Cells:** `29–30`
-
-titanic_preprocessed[:,2] was used as the "after discretization" data. After preprocessing, the columns are in this order: Age, Fare, then the one-hot columns. So, column 2 is the Embarked_C flag, and the histogram shows just two bars (0 and 1) instead of ages. The "before" histogram also runs after pd.cut, when Age is already words, so it can't draw the original ages.
-
-**`02` — Histogram with KDE**
-**Affected Cell:** `34`
-
-Once Age became Child, Adult, and Elderly, histplot with kde=True no longer made sense. A smooth density curve needs numbers. A count plot works better for age groups, or the plot can use a numeric Age column.
-
-**`03` — Correlation Heatmap**
-**Affected Cell:** `39`
-
-The heatmap only takes numeric columns. Since Age was replaced by labels, it was dropped, and I couldn't see how age relates to survival.
-
-
-### 📊 Issue Summary
-
-| Cell Reference | Visualization | Identified Issue |
-|:---:|---|---|
-| `29–30` | Histogram | Wrong column selected |
-| `34` | Histogram with KDE | Categorical Age data |
-| `39` | Correlation Heatmap | Age column excluded |
-
-
----
-### De Chavez
-**📋 Overview**
-> No syntax problems were detected in Chapter 9, but several problems were noted regarding data visualization.
-
-**🔍 Identified Issues**
-
 **`01` — Discretization Order**
 
 The discretization happens after the preprocessor was already fitted. The pipeline scaled the original numeric Age, so the binned Age only affects the plots, not the model input.
@@ -187,17 +155,17 @@ Later, the code turns Age into Child, Adult, and Elderly using pd.cut.
 **`02` — Histogram Visualization**
 **Affected Cells:** `29–30`
 
-Specifically, the histogram in Cells 29–30 is based on a wrong column from the preprocessed dataset that may influence the results' accuracy.
+titanic_preprocessed[:,2] was used as the "after discretization" data. After preprocessing, the columns are in this order: Age, Fare, then the one-hot columns. So, column 2 is the Embarked_C flag, and the histogram shows just two bars (0 and 1) instead of ages. The "before" histogram also runs after pd.cut, when Age is already words, so it can't draw the original ages.
 
 **`03` — Histogram with KDE**
 **Affected Cell:** `34`
 
-The histogram with KDE in Cell 34 is built on the Age column that is represented in categories. Actually, the count plot should have been used there because it is suitable for the representation of categories and survival outcomes.
+Once Age became Child, Adult, and Elderly, histplot with kde=True no longer made sense. A smooth density curve needs numbers. A count plot works better for age groups, or the plot can use a numeric Age column.
 
 **`04` — Correlation Heatmap**
 **Affected Cell:** `39`
 
-The Age column was not included into the correlation heatmap in Cell 39 due to the fact that it was turned into categories. This problem can be overcome if the numeric version of the Age column was used instead.
+The heatmap only takes numeric columns. Since Age was replaced by labels, it was dropped, and I couldn't see how age relates to survival.
 
 
 ### 📊 Issue Summary
@@ -208,6 +176,38 @@ The Age column was not included into the correlation heatmap in Cell 39 due to t
 | `29–30` | Before/after histogram | Plots a one-hot column; "before" runs after binning |
 | `34` | Age histogram with KDE | Age is words, not numbers |
 | `39` | Correlation Heatmap | Age is missing |
+
+
+---
+### De Chavez
+**📋 Overview**
+> No syntax problems were detected in Chapter 9, but several problems were noted regarding data visualization.
+
+**🔍 Identified Issues**
+
+**`01` — Histogram Visualization**
+**Affected Cells:** `29–30`
+
+Specifically, the histogram in Cells 29–30 is based on a wrong column from the preprocessed dataset that may influence the results' accuracy.
+
+**`02` — Histogram with KDE**
+**Affected Cell:** `34`
+
+The histogram with KDE in Cell 34 is built on the Age column that is represented in categories. Actually, the count plot should have been used there because it is suitable for the representation of categories and survival outcomes.
+
+**`03` — Correlation Heatmap**
+**Affected Cell:** `39`
+
+The Age column was not included into the correlation heatmap in Cell 39 due to the fact that it was turned into categories. This problem can be overcome if the numeric version of the Age column was used instead.
+
+
+### 📊 Issue Summary
+
+| Cell Reference | Visualization | Identified Issue |
+|:---:|---|---|
+| `29–30` | Histogram | Wrong column selected |
+| `34` | Histogram with KDE | Categorical Age data |
+| `39` | Correlation Heatmap | Age column excluded |
 
 
 ---
