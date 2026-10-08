@@ -17,8 +17,9 @@ Batangas State University, Alangilan Campus
 
 | Chapter | Aquino | De Chavez |
 |---|---|---|
-| Ch1_2_3 | [link](https://colab.research.google.com/drive/1uzwUUM62UsJT8u53Ne9xzbici6U1P-Gm?usp=drive_link) | [link]() |
-| Ch4 | [link](https://colab.research.google.com/drive/1Aq8-3vytmvoFdzw_g865FWNDF6uLZ5w5?usp=sharing) | [link]() |
+| Ch1_2_3 | [link](https://colab.research.google.com/drive/1uzwUUM62UsJT8u53Ne9xzbici6U1P-Gm?usp=drive_link) | [link](https://colab.research.google.com/drive/1FgNZy6bVj1NN76ktEShaxNadtXu6Cz4_?usp=sharing) |
+| Ch4 | [link](https://colab.research.google.com/drive/1Aq8-3vytmvoFdzw_g865FWNDF6uLZ5w5?usp=sharing) | [link](https://colab.research.google.com/drive/1Zk1lKVk0PpMEQy6ZLvN40HTDJaO1N-2Y?usp=sharing) |
+| Ch4 | [link](https://colab.research.google.com/drive/1Aq8-3vytmvoFdzw_g865FWNDF6uLZ5w5?usp=sharing) | [link](https://colab.research.google.com/drive/1M4f6xoY6shIuioujIAs3HADHd-B6rb5i?usp=sharing) |
 | Ch5 | [link](https://colab.research.google.com/drive/1Ff4T9rIZpmsCQegWKgplzqIM7Ix0MDIw?usp=sharing) | [link]() |
 | Ch6 | [link](https://colab.research.google.com/drive/11iCOwjseur9i5FseJJ9UB9pJKbIhK7nx?usp=sharing) | [link]() |
 | Ch7 | [link](https://colab.research.google.com/drive/1DabI0ZFXgUoQWVphmmwxo2qgsW9FmoPM?usp=sharing) | [link]() |
