@@ -29,6 +29,9 @@ Batangas State University, Alangilan Campus
 ## What we learned
 
 ### Aquino 
+### Data Preprocessing
+### Learning Reflections | Chapters 1–9
+
 **📖 Chapter 1: Introduction**
 
 The data can have missing values, mixed-up units like mph and kph, or columns that don't help at all. I learned three ways to fix this: fill the gaps (like using the average), convert units so everything matches, and remove columns that aren't useful. It isn't only about neatness. Clean data gives a more accurate model and also saves time and money later. In the code, I saw that even the order of the cleaning steps matters, because filling Publisher first left nothing for the next step to remove.
