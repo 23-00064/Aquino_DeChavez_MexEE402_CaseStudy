@@ -214,6 +214,33 @@ The Age column was not included into the correlation heatmap in Cell 39 due to t
 ## Note on AI tools
 
 ### Aquino
+
+**📋 Overview**
+
+> Claude AI was used to assist in identifying errors in each chapter. It also helped explain functions and syntax that were unfamiliar.
+
+**🔍 AI Assistance & Error Identification**
+
+**`01` — Debugging a Code Error**
+
+While entering my code, I ran into an error and asked Claude AI to help debug it. After reviewing the code, the cause turned out to be a simple capitalization mistake: I had typed a lowercase x* instead of an uppercase X*. Because Python is case-sensitive, the two are treated as different variables, which caused the error. After correcting it, the code ran properly.
+
+
+**`02` — Understanding Unfamiliar Functions**
+
+I asked Claude AI to explain functions that I was not familiar with. It explained what each function does and what happens to the data when the function is applied. This helped me understand the purpose of each step in my code instead of just copying it, and I could then apply the functions correctly in my work. This also helped me in answering some questions.
+
+## 📊 AI Usage Summary
+
+| Category | Claude AI Usage |
+|:---|:---|
+| `01` Debugging a Code Error | Error identification and correction |
+| `02` Understanding Unfamiliar Functions | Understanding |
+
+**📝 Scope of AI Usage**
+
+Besides error identification and understanding, Claude AI was not used for any other purpose.
+
 ---
 ### De Chavez
 
