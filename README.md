@@ -28,8 +28,65 @@ Batangas State University, Alangilan Campus
 
 ## What we learned
 
-One short paragraph per chapter, Ch1_2_3 to Ch9. Say what the chapter taught
-you and what surprised you. Not what the library does, but what you understood.
+### Aquino 
+
+### De Chavez, Zoe 
+### Data Preprocessing
+### Learning Reflections | Chapters 1–9
+
+---
+
+## 📖 Chapter 1: Introduction
+
+For chapter 1, there was no programming involved since it was only an introduction. I just read through the chapter and focused on understanding the concept since I initially thought that the information presented there would be directly used in the programming for the succeeding chapters. However, the chapter mainly introduced the terminologies and definitions necessary for better understanding data pre-processing and its importance.
+
+---
+
+## 💻 Chapter 2: Learning Experience
+
+For chapter 2, I initially encountered some difficulty when downloading the CSV file. When I clicked the provided link, I was redirected to a website with a download option. I thought that this was the file to be downloaded but clicking the option shows a code instead. I then reviewed the page further and found the right file. However, the file I downloaded was in ZIP format, and I was not aware that I needed to extract the required file before uploading it to the notebook. Therefore, when I attempted to run step 3, the code did not work. I consulted Gemini, the AI tool available in google colab to determine the source of error, and it explained that the code was not designed to accept a ZIP file. I consulted this problem to my partner who explained that I need to extract the file first. After extracting the file and uploading the correct file, I ran the code again and it worked successfully. After resolving this issue I did not encounter any further difficulties in chapter 2.
+
+---
+
+## 💻 Chapter 3: Learning Experience
+
+For Chapter 3, I already had some basic knowledge and a better understanding of how google colab worked. This gave me some confidence in completing the activity, as I understood that I just needed to paste the appropriate code and run the program correctly. I also made sure to verify the results were consistent with the instructions and code provided.
+
+---
+
+## 💻 Chapter 4: Learning Experience
+
+For Chapter 4, I did not encounter any major challenges that made things difficult for me when it comes to running the code. I just made sure that the output that was generated was correct. However, when I clicked Run All, a “next step” option appeared, which I think was because of the AI tool in Google Colab. I clicked it at first because I thought it was a part of the activity, but I later realized that it was only an AI tool feature. Aside from that,I did not encounter any other problems or surprises in Chapter 4.
+
+---
+
+## 📊 Chapter 5: Lessons Learned
+
+The lesson that Chapter 5 taught me was that scaling is an important step because differences in numbers could affect the way the machine learning model analyzes data. This is because the higher the value of a feature, the more likely it will have an impact on the data despite not being important. What I found surprising was that scaling may not always be necessary depending on the machine learning algorithm.
+
+---
+
+## 📊 Chapter 6: Lessons Learned
+
+Lesson in Chapter 6: Outliers can influence the way we interpret data; therefore, we must be able to recognize them prior to coming up with any conclusion. Surprisingly enough, using various methods yields different outcomes since the Z-score method does not recognize 100 as an outlier while the IQR method recognizes 100 as an outlier. Moreover, not all outliers need to be discarded as some of them contain valuable information.
+
+---
+
+## 📊 Chapter 7: Lessons Learned
+
+Chapter 7 helped me realize that all the features available in a dataset are not necessarily relevant to prediction tasks. It has been realized that using proper feature selection may lead to improvement of the performance of a model as well as reduce unnecessary features. What intrigued me is that various feature selection techniques can select different features using the same dataset.
+
+---
+
+## 📊 Chapter 8: Lessons Learned
+
+In chapter 8, I learnt that data preparation does not only involve cleaning but also ensures that every task is performed in the correct sequence. It was clear that arranging the tasks involved in the data preprocessing into one process will ensure that there is consistency in the process, and the chances of making errors are greatly reduced. The surprising thing to me was that different processes could be merged together instead of being done independently.
+
+---
+
+## 📊 Chapter 9: Lessons Learned
+
+From Chapter 9, I have learned that data preprocessing is vital as it makes the data organized, coherent and easy to work with. Handling the missing values, categorizing data and producing visualizations may help us discover the patterns present in a data set. What surprised me in Chapter 9 was the fact that the Titanic data set may reveal some relationships among such factors as age, gender, passenger class and whether or not a person survived.
 
 ## Errors we found
 
