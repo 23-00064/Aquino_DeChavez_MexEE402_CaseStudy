@@ -15,7 +15,7 @@ Batangas State University, Alangilan Campus
 
 ## Notebook links
 
-| Chapter | Member 1 | Member 2 |
+| Chapter | Aquino | De Chavez |
 |---|---|---|
 | Ch1_2_3 | [link](https://colab.research.google.com/drive/1uzwUUM62UsJT8u53Ne9xzbici6U1P-Gm?usp=drive_link) | [link]() |
 | Ch4 | [link](https://colab.research.google.com/drive/1Aq8-3vytmvoFdzw_g865FWNDF6uLZ5w5?usp=sharing) | [link]() |
