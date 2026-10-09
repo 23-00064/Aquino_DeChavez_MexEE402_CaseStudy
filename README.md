@@ -26,11 +26,10 @@ Batangas State University, Alangilan Campus
 | Ch8 | [link](https://colab.research.google.com/drive/16t8ceuUn077M8EEk2sPcwXTYhKer5R8K?usp=sharing) | [link](https://colab.research.google.com/drive/1dSe1AJNZOFt7raA5CMG6C6BVBQUAyU00?usp=sharing) |
 | Ch9 | [link](https://colab.research.google.com/drive/10FP5yDqVVT40yUxGyFSOTJdjOMZDuaJu?usp=sharing) | [link](https://colab.research.google.com/drive/11aGISi8aN7-tAaR_KYkWAjdSbTi90oOF?usp=sharing) |
 
-## What we learned
+## 📑 What we learned
 
-### Aquino 
-### Data Preprocessing
-### Learning Reflections | Chapters 1–9
+### 👤 Aquino, Kimberly Chezka 
+> ### Data Preprocessing | Learning Reflections | Chapters 1–9
 
 **📖 Chapter 1: Introduction**
 
@@ -84,9 +83,8 @@ The data goes in, passes through the steps (fill missing values, then scale), an
 This chapter put everything together. Number columns got the median and scaling, and word columns got a "missing" label and one-hot encoding. I also turned ages into Child, Adult, and Elderly, then made charts to see who survived. What I learned is that charts are not just for decoration. They help me check my work. What surprised me was that my own mistakes showed up here. One "after" chart used column 2, which turned out to be a one-hot column and not Age. Also, once I turned Age into groups, the later charts that needed real ages stopped working properly. I learned to keep a copy of the original column and to run the cells in the right order.
 
 ---
-### De Chavez, Zoe 
-### Data Preprocessing
-### Learning Reflections | Chapters 1–9
+### 👤 De Chavez, Zoe 
+> ### Data Preprocessing | Learning Reflections | Chapters 1–9
 
 **📖 Chapter 1: Introduction**
 
@@ -140,10 +138,10 @@ In chapter 8, I learnt that data preparation does not only involve cleaning but 
 From Chapter 9, I have learned that data preprocessing is vital as it makes the data organized, coherent and easy to work with. Handling the missing values, categorizing data and producing visualizations may help us discover the patterns present in a data set. What surprised me in Chapter 9 was the fact that the Titanic data set may reveal some relationships among such factors as age, gender, passenger class and whether or not a person survived.
 
 ---
-## Errors we found
+## ❌ Errors we found
 
-### Aquino
-**📋 Overview**
+### 👤 Aquino, Kimberly Chezka
+> **📋 Overview:**
 > Ran the Chapter 9 notebook and nothing crashed, but a few charts and results looked wrong. All of the problems come from how Age was handled.
 
 **🔍 Identified Issues**
@@ -182,8 +180,8 @@ The heatmap only takes numeric columns. Since Age was replaced by labels, it was
 
 
 ---
-### De Chavez
-**📋 Overview**
+### 👤 De Chavez, Zoe
+> **📋 Overview:**
 > No syntax problems were detected in Chapter 9, but several problems were noted regarding data visualization.
 
 **🔍 Identified Issues**
@@ -216,11 +214,9 @@ The Age column was not included into the correlation heatmap in Cell 39 due to t
 ---
 ## Note on AI tools
 
-### Aquino
+### 👤 Aquino, Kimberly Chezka
 
-**📋 Overview**
-
-> Claude AI was used to assist in identifying errors in each chapter. It also helped explain functions and syntax that were unfamiliar.
+> **📋 Overview:** Claude AI was used to assist in identifying errors in each chapter. It also helped explain functions and syntax that were unfamiliar.
 
 **🔍 AI Assistance & Error Identification**
 
@@ -245,11 +241,9 @@ I asked Claude AI to explain functions that I was not familiar with. It explaine
 Besides error identification and understanding, Claude AI was not used for any other purpose.
 
 ---
-### De Chavez
+### 👤 De Chavez, Zoe
 
-**📋 Overview**
-
-> Gemini AI was used by me mainly to recognize the errors that arise during the code execution and make sense of the error.
+> **📋 Overview:** Gemini AI was used by me mainly to recognize the errors that arise during the code execution and make sense of the error.
 
 **🔍 AI Assistance & Error Identification**
 
